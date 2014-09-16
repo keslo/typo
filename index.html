@@ -3,24 +3,43 @@
 <head>
     <title>Test page TYPO</title>
     <meta charset="UTF-8" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<center>
-    <p>
-        This is the text that we add to the file with typos.
-    </p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <center>
+                <h1>
+                    Учет ошибок на сайте
+                </h1>
+                <p>
+                    Здесь можно протестировать работу скрипта на добавление, загрузку и удаление сообщений об ошибке. Сделать это можно с помощью специальных функциональных кнопок.
+                </p>
 
-    <button id="btn">Send typo</button>
+                <button id="btn">Сообщить об ошибке на сайте</button>
 
-    <br />
-    <br />
+                <br />
+                <br />
 
-    <button id="btn_load_typo">Load typos</button>
-    <div id="load_typo"></div>
+                <!-- <button id="btn_load_typo">Загрузить таблицу с ошибками</button> -->
+                <br /><br />
+                <div id="load_typo"></div>
 
-    <button id="btn_delete_typo">Delete typos</button>
-
-</center>
+            </center>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
 
 <script src="js/jquery-2.1.1.js"  type="text/javascript"></script>
 <script src="js/script.js"></script>
